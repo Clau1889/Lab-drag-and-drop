@@ -1,0 +1,153 @@
+body{
+    box-sizing: border-box;
+}
+
+/*-----VERSIÓN MOBILE----*/
+@media(max-width: 767px){
+    #mobile-bottom-box{
+        display: block;
+    }
+    body{
+        background-color: rgba(255, 192, 203, 0.473);
+    }
+    header{
+        background-color: rgba(210, 160, 229, 0.452);
+    }
+    header > div > h1{
+        color: purple;
+        font-family: 'Merienda', cursive;
+        padding-top: 1rem;
+        text-align: center;
+    }
+    
+    main#mobile-top-box > div#top-box-mb{
+        background-color: rgba(161, 156, 156, 0.268);
+        border: 1px dotted white;
+        margin-top: 2rem;
+        height: 15rem;
+        width: 100%;
+    }
+
+    section> div#bottom-box > p{
+        color: palevioletred;
+        font-family: 'Aladin', cursive;
+        font-size: 150%;
+        margin: 1rem 0;
+        text-align: center;
+    }
+    main > div #top-box{
+        background-color:pink;
+        border: 1.5px dashed palevioletred;
+        margin-top: 1.5rem;
+        height: 40%;
+        width: 100vh;
+    }
+    #bottom-box{
+        height: auto;
+    }
+    #bottom-box > section > .img-drag{
+        border-radius: 5%;
+        float: left;
+        height: 40%;
+        padding: 0;
+        margin-top: 0.5rem;
+        width: 60%;
+    }
+    #bottom-box > section > .img-left{
+        margin-right: 0.5rem;
+    }
+
+    #desktop-bottom-box{
+        display:none;
+    }
+}
+
+/*-----VERSIÓN TABLET----*/
+@media screen and (min-width: 426px )and (max-width: 991px){
+    #mobile-bottom-box{
+        display: none;
+    }
+    #desktop-bottom-box{
+        display: block;
+    }
+    body{
+        background-color: rgba(177, 221, 238, 0.87);
+    }
+    header{
+        background-color: rgba(139, 139, 211, 0.438);
+    }
+    header > div > h1{
+        color: rgba(64, 64, 121);
+        font-family: 'Merienda', cursive;
+        font-size: 400%;
+        padding-top: 1rem;
+        text-align: center;
+    }
+    main#desktop-top-box > div#top-box-desk{
+        background-color: rgba(161, 156, 156, 0.268);
+        border: 1px dotted white;
+        height: 20rem;
+        margin-top: 3rem;
+        width: 100%;
+    }
+    section> div#bottom-box > p{
+        color: rgb(115, 118, 131);
+        font-family: 'Aladin', cursive;
+        font-size: 200%;
+        margin: 1rem 0;
+        text-align: center;
+    }
+    #bottom-box > section > .img-drag-desktop{
+        border-radius: 5%;
+        float: left;
+        height: 25%;
+        padding: 0.3rem;
+        margin-top: 0.5rem;
+        width: 15%;
+    }
+}
+
+/*-----VERSIÓN DESKTOP----*/
+@media(min-width: 992px){
+    #mobile-bottom-box{
+        display: none;
+    }
+    #desktop-bottom-box{
+        display: block;
+    }
+    body{
+        background-color: rgba(238, 241, 13, 0.374);
+    }
+    header{
+        background-color: rgba(162, 240, 45, 0.279);
+    }
+    header > div > h1{
+        color: rgb(23, 177, 23);
+        font-family: 'Merienda', cursive;
+        font-size: 500%;
+        padding-top: 1rem;
+        text-align: center;
+    }
+    main#desktop-top-box > div#top-box-desk{
+        background-color: rgba(161, 156, 156, 0.268);
+        border: 1px dotted white;
+        height: 40rem;
+        margin-top: 3rem;
+        width: 100%;
+    }
+    section> div#bottom-box > p{
+        color: goldenrod;
+        font-family: 'Aladin', cursive;
+        font-size: 300%;
+        margin: 1rem 0;
+        text-align: center;
+    }
+    #bottom-box > section > .img-drag-desktop{
+        border-radius: 5%;
+        float: left;
+        height: 25%;
+        padding: 0.3rem;
+        margin-top: 0.5rem;
+        width: 15%;
+    }
+}
